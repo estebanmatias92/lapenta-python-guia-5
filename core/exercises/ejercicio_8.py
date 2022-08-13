@@ -55,7 +55,7 @@ if data_list == []:
     exit()
 
 # Create a list of the numbers stored in each dictionary
-numbers = [data["number"] for item in data]
+numbers = [item["number"] for item in data]
 # Get the maximun value within those numbers from the list
 max_value = find_max(numbers)
 # Get the factorial of that maximun value

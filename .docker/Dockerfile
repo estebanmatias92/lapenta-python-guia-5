@@ -1,5 +1,5 @@
 #The base image for the container 
-FROM python:3.8-slim-bullseye AS base
+FROM python:3.10-bullseye AS base
 
 RUN apt-get update -qqy && \
     apt-get install -qqy python3-dev \
