@@ -5,8 +5,9 @@
         "ms-python.python",
         "ms-python.vscode-pylance",
         "ms-python.black-formatter",
-        "KevinRose.vsc-python-indent",
+        "kevinrose.vsc-python-indent",
         "njpwerner.autodocstring",
-        "sourcery.sourcery"
+        "sourcery.sourcery",
+        "almenon.arepl"
     ]
 }
