@@ -100,7 +100,7 @@ def sum_digits(num):
 
 
 def is_prime(num):
-    """Test if an natural number is prime
+    """Test if an natural number is prime.
 
     Args:
         num (int): Integer value to test it's primality
@@ -154,6 +154,7 @@ def factorial(num):
     Returns:
         int: Returns the factorial calculation
     """
+
     # Check for incorrect values
     if num < 1:
         raise ValueError("Factorial is for Natural numbers above 0.")
